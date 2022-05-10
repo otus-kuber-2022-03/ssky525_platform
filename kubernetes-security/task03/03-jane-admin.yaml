@@ -7,6 +7,6 @@ roleRef:
   kind: ClusterRole
   name: admin
 subjects:
-  kind: ServiceAccount
+- kind: ServiceAccount
   name: jane
   namespace: dev
